@@ -2,7 +2,7 @@
   id: Mira
   mapName: 'Mira'
   mapPath: /Maps/mira.yml
-  minPlayers: 7
+  minPlayers: 0
   maxPlayers: 35
   stations:
     Mira:
@@ -14,7 +14,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'VG'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_huyendo.yml
+          emergencyShuttlePath: /Maps/_Harmony/Shuttles/emergency_huyendo.yml
         - type: StationCargoShuttle
           path: /Maps/_Harmony/Shuttles/cargo_mira.yml
         - type: StationJobs
@@ -26,7 +26,8 @@
             Botanist: [ 1, 1 ]
             Chef: [ 1, 1 ]
             Janitor: [ 2, 2 ]
-            ServiceWorker: [ 2, 2 ]
+            ServiceWorker: [ 1, 2 ]
+            Librarian: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 1, 1 ]
