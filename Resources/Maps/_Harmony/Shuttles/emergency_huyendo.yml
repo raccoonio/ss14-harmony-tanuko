@@ -1610,6 +1610,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 8.5,-19.5
       parent: 2
+  - uid: 591
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,-16.5
+      parent: 2
+  - uid: 592
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,-17.5
+      parent: 2
 - proto: Chair
   entities:
   - uid: 227
