@@ -5393,7 +5393,7 @@ entities:
       pos: 12.5,-9.5
       parent: 3
     - type: Door
-      secondsUntilStateChange: -130042.625
+      secondsUntilStateChange: -130817.055
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -13871,6 +13871,11 @@ entities:
     - type: Transform
       pos: 37.5,-90.5
       parent: 3
+  - uid: 10764
+    components:
+    - type: Transform
+      pos: -19.5,-69.5
+      parent: 3
 - proto: CableApcStack
   entities:
   - uid: 1067
@@ -13895,6 +13900,13 @@ entities:
     - type: Transform
       pos: -19.5,-68.5
       parent: 3
+  - uid: 10765
+    components:
+    - type: Transform
+      pos: -18.289667,-70.69794
+      parent: 3
+    - type: Stack
+      count: 5
 - proto: Cablecuffs
   entities:
   - uid: 354
@@ -26223,13 +26235,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 35.5,-65.5
       parent: 3
-- proto: ComputerBroken
-  entities:
-  - uid: 10178
-    components:
-    - type: Transform
-      pos: -18.5,-70.5
-      parent: 3
 - proto: ComputerCargoBounty
   entities:
   - uid: 2100
@@ -26292,6 +26297,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 19.5,-27.5
       parent: 3
+- proto: ComputerFrame
+  entities:
+  - uid: 10178
+    components:
+    - type: Transform
+      pos: -18.5,-70.5
+      parent: 3
 - proto: ComputerId
   entities:
   - uid: 1596
@@ -26311,7 +26323,7 @@ entities:
   - uid: 7892
     components:
     - type: Transform
-      pos: -18.495716,-71.53774
+      pos: -18.399042,-70.40106
       parent: 3
 - proto: ComputerPalletConsole
   entities:
@@ -55923,6 +55935,16 @@ entities:
     components:
     - type: Transform
       pos: 30.478836,-17.459957
+      parent: 3
+  - uid: 10766
+    components:
+    - type: Transform
+      pos: -18.727167,-70.52606
+      parent: 3
+  - uid: 10767
+    components:
+    - type: Transform
+      pos: -18.414667,-70.72919
       parent: 3
 - proto: SheetGlass
   entities:
