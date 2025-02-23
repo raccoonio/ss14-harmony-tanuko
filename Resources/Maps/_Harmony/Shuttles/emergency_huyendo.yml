@@ -17,7 +17,7 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: NT Evac Huyendo
     - type: Transform
       pos: -0.390625,-0.140625
       parent: invalid

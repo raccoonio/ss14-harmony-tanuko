@@ -37,7 +37,7 @@ entities:
   - uid: 1895
     components:
     - type: MetaData
-      name: grid
+      name: Cargo Shuttle
     - type: Transform
       parent: invalid
     - type: MapGrid
