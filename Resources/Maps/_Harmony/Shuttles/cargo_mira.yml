@@ -242,9 +242,31 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-6.5
       parent: 1895
+- proto: AtmosDeviceFanDirectional
+  entities:
+  - uid: 25
+    components:
+    - type: Transform
+      pos: 0.5,-6.5
+      parent: 1895
+  - uid: 26
+    components:
+    - type: Transform
+      pos: 4.5,-6.5
+      parent: 1895
+  - uid: 27
+    components:
+    - type: Transform
+      pos: 1.5,-6.5
+      parent: 1895
+  - uid: 28
+    components:
+    - type: Transform
+      pos: 3.5,-6.5
+      parent: 1895
 - proto: BlastDoor
   entities:
-  - uid: 1973
+  - uid: 23
     components:
     - type: Transform
       pos: 4.5,-6.5
@@ -605,22 +627,24 @@ entities:
       parent: 1895
 - proto: ConveyorBelt
   entities:
-  - uid: 1899
+  - uid: 20
     components:
     - type: Transform
       pos: 0.5,-5.5
       parent: 1895
-  - uid: 1933
+  - uid: 21
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 4.5,-5.5
       parent: 1895
-  - uid: 1934
+  - uid: 22
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 4.5,-6.5
       parent: 1895
-  - uid: 1935
+  - uid: 24
     components:
     - type: Transform
       pos: 0.5,-6.5
@@ -939,7 +963,7 @@ entities:
       parent: 1895
     - type: DeviceLinkSource
       linkedPorts:
-        1973:
+        23:
         - Pressed: Toggle
         1974:
         - Pressed: Toggle
@@ -1002,11 +1026,11 @@ entities:
       parent: 1895
     - type: DeviceLinkSource
       linkedPorts:
-        1899:
+        24:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        1935:
+        20:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
@@ -1017,13 +1041,13 @@ entities:
       parent: 1895
     - type: DeviceLinkSource
       linkedPorts:
-        1933:
-        - Left: Reverse
-        - Right: Forward
+        21:
+        - Left: Forward
+        - Right: Reverse
         - Middle: Off
-        1934:
-        - Right: Forward
-        - Left: Reverse
+        22:
+        - Left: Forward
+        - Right: Reverse
         - Middle: Off
 - proto: WallShuttle
   entities:
