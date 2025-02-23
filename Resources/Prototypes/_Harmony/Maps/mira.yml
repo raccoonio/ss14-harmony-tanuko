@@ -1,6 +1,6 @@
 - type: gameMap
   id: Mira
-  mapName: 'Mira'
+  mapName: 'Mira Station'
   mapPath: /Maps/_Harmony/mira.yml
   minPlayers: 0
   maxPlayers: 25
@@ -12,7 +12,7 @@
           mapNameTemplate: '{0} Mira Station {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'VG'
+            prefixCreator: 'ES'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/_Harmony/Shuttles/emergency_huyendo.yml
         - type: StationCargoShuttle
@@ -32,7 +32,7 @@
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 1, 1 ]
             StationEngineer: [ 2, 2 ]
-            TechnicalAssistant: [ 2, 2 ]
+            TechnicalAssistant: [ 1, 1 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
             Chemist: [ 1, 1 ]
@@ -61,4 +61,4 @@
             Musician: [ 1, 1 ]
             #silicon
             StationAi: [ 1, 1 ]
-            Borg: [ 2, 2 ]
+            Borg: [ 2, 3 ]
