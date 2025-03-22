@@ -19,8 +19,10 @@
   - CigarCase
   - CigarGold
   - ClothingNeckLGBTPin
+  - ClothingNeckAllyPin
   - ClothingNeckAromanticPin
   - ClothingNeckAsexualPin
+  - ClothingNeckAroacePin
   - ClothingNeckBisexualPin
   - ClothingNeckGayPin
   - ClothingNeckIntersexPin
@@ -28,6 +30,7 @@
   - ClothingNeckNonBinaryPin
   - ClothingNeckPansexualPin
   - ClothingNeckOmnisexualPin
+  - ClothingNeckGenderqueerPin
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
@@ -41,6 +44,7 @@
   - ClothingNeckFrontierPin
   - ClothingNeckDeltaVPin
   - ClothingNeckCosmaticDriftPin
+  - ClothingNeckLanyard
   - HarmonicaInstrument
   - TowelColorBlack
   - TowelColorDarkBlue
@@ -763,6 +767,7 @@
 - type: loadoutGroup
   id: StationEngineerHead
   name: loadout-group-station-engineer-head
+  minLimit: 0
   loadouts:
   - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
@@ -1121,6 +1126,7 @@
   - NoirJumpsuit
   - NoirJumpskirt
   - DetectiveBlueSuitHarmony # Harmony
+  - DetectiveBlueSkirtHarmony # Harmony
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1130,7 +1136,9 @@
   - DetectiveCoat
   - DetectiveCoatGrey
   - DetectiveBlueCoatHarmony # Harmony
-
+  - DetectiveBomberCoatHarmony # Harmony
+  - DetectiveDiscoCoatHarmony # Harmony
+ 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
   name: loadout-group-security-cadet-jumpsuit
