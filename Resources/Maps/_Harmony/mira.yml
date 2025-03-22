@@ -75026,6 +75026,13 @@ entities:
     - type: Transform
       pos: -5.5,-50.5
       parent: 3
+- proto: SpawnPointChaplain
+  entities:
+  - uid: 14254
+    components:
+    - type: Transform
+      pos: -16.5,-96.5
+      parent: 3
 - proto: SpawnPointChef
   entities:
   - uid: 6943
